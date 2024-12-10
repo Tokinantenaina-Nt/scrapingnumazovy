@@ -1,0 +1,19 @@
+{
+  "name": "azovynumscraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sparticuz/chromium": "^119.0.2",
+    "express": "^4.21.1",
+    "puppeteer-core": "^1.12.2",
+    "cors": "^2.8.5",
+    "serverless-http": "^3.2.0"
+  }
+}
