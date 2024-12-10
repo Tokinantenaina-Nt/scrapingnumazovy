@@ -1,9 +1,7 @@
 const puppeteer = require("puppeteer-core");
 const chromium = require("@sparticuz/chromium");
+
 const scrapePhoneNumber = async phoneNumber => {
-  return "ok";
-};
-/*const scrapePhoneNumber = async phoneNumber => {
   console.log("Début du scraping...");
   const browser = await puppeteer.launch({
     // executablePath: "E:\\Slimjet_fonctionnel_windows7\\slimjet.exe" //commenter ceci en mode netlify
@@ -56,6 +54,6 @@ const scrapePhoneNumber = async phoneNumber => {
     console.log("Fermeture du navigateur...");
     await browser.close();
   }
-};*/
+};
 
 module.exports = scrapePhoneNumber;
